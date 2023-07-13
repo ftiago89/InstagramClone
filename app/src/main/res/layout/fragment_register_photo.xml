@@ -48,7 +48,12 @@
                 android:id="@+id/register_btn_enter"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:text="@string/next" />
+                app:text="@string/add_photo" />
+
+            <Button
+                android:id="@+id/register_btn_jump"
+                style="@style/Theme.Instagram.Link"
+                android:text="@string/jump" />
 
         </LinearLayout>
     </ScrollView>
